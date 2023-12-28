@@ -1,0 +1,194 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.showops"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/adilmalik/Documents/Remote work/showops/android/app/src/main/AndroidManifest.xml:3:5-67
+15-->/Users/adilmalik/Documents/Remote work/showops/android/app/src/main/AndroidManifest.xml:3:22-64
+16    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+16-->/Users/adilmalik/Documents/Remote work/showops/android/app/src/main/AndroidManifest.xml:4:5-71
+16-->/Users/adilmalik/Documents/Remote work/showops/android/app/src/main/AndroidManifest.xml:4:22-69
+17    <uses-permission
+17-->[:file_picker] /Users/adilmalik/Documents/Remote work/showops/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-11:38
+18        android:name="android.permission.READ_EXTERNAL_STORAGE"
+18-->[:file_picker] /Users/adilmalik/Documents/Remote work/showops/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-64
+19        android:maxSdkVersion="32" />
+19-->[:file_picker] /Users/adilmalik/Documents/Remote work/showops/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-35
+20
+21    <queries>
+21-->[:file_picker] /Users/adilmalik/Documents/Remote work/showops/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-19:15
+22        <intent>
+22-->[:file_picker] /Users/adilmalik/Documents/Remote work/showops/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:18
+23            <action android:name="android.intent.action.GET_CONTENT" />
+23-->[:file_picker] /Users/adilmalik/Documents/Remote work/showops/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-72
+23-->[:file_picker] /Users/adilmalik/Documents/Remote work/showops/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:21-69
+24
+25            <data android:mimeType="*/*" />
+25-->[:file_picker] /Users/adilmalik/Documents/Remote work/showops/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+25-->[:file_picker] /Users/adilmalik/Documents/Remote work/showops/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:19-41
+26        </intent>
+27    </queries> <!-- suppress DeprecatedClassUsageInspection -->
+28    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+28-->[androidx.biometric:biometric:1.1.0] /Users/adilmalik/.gradle/caches/transforms-3/29a53b35c072e5e16e15ef7c62078a12/transformed/biometric-1.1.0/AndroidManifest.xml:27:5-74
+28-->[androidx.biometric:biometric:1.1.0] /Users/adilmalik/.gradle/caches/transforms-3/29a53b35c072e5e16e15ef7c62078a12/transformed/biometric-1.1.0/AndroidManifest.xml:27:22-71
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->[com.google.android.exoplayer:exoplayer-core:2.18.7] /Users/adilmalik/.gradle/caches/transforms-3/e255c6ce9910a673f2619b479a7d74a8/transformed/jetified-exoplayer-core-2.18.7/AndroidManifest.xml:24:5-79
+29-->[com.google.android.exoplayer:exoplayer-core:2.18.7] /Users/adilmalik/.gradle/caches/transforms-3/e255c6ce9910a673f2619b479a7d74a8/transformed/jetified-exoplayer-core-2.18.7/AndroidManifest.xml:24:22-76
+30
+31    <permission
+31-->[androidx.core:core:1.10.1] /Users/adilmalik/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+32        android:name="com.example.showops.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+32-->[androidx.core:core:1.10.1] /Users/adilmalik/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+33        android:protectionLevel="signature" />
+33-->[androidx.core:core:1.10.1] /Users/adilmalik/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+34
+35    <uses-permission android:name="com.example.showops.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+35-->[androidx.core:core:1.10.1] /Users/adilmalik/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+35-->[androidx.core:core:1.10.1] /Users/adilmalik/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+36
+37    <application
+38        android:name="android.app.Application"
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.10.1] /Users/adilmalik/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+40        android:debuggable="true"
+41        android:icon="@mipmap/ic_launcher"
+42        android:label="showops" >
+43        <activity
+44            android:name="com.example.showops.MainActivity"
+45            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+46            android:exported="true"
+47            android:hardwareAccelerated="true"
+48            android:launchMode="singleTop"
+49            android:theme="@style/LaunchTheme"
+50            android:windowSoftInputMode="adjustResize" >
+51
+52            <!--
+53                 Specifies an Android theme to apply to this Activity as soon as
+54                 the Android process has started. This theme is visible to the user
+55                 while the Flutter UI initializes. After that, this theme continues
+56                 to determine the Window background behind the Flutter UI.
+57            -->
+58            <meta-data
+59                android:name="io.flutter.embedding.android.NormalTheme"
+60                android:resource="@style/NormalTheme" />
+61
+62            <intent-filter>
+63                <action android:name="android.intent.action.MAIN" />
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+66            </intent-filter>
+67        </activity>
+68        <!--
+69             Don't delete the meta-data below.
+70             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+71        -->
+72        <meta-data
+73            android:name="flutterEmbedding"
+74            android:value="2" />
+75
+76        <provider
+76-->[:image_picker_android] /Users/adilmalik/Documents/Remote work/showops/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+77            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+77-->[:image_picker_android] /Users/adilmalik/Documents/Remote work/showops/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+78            android:authorities="com.example.showops.flutter.image_provider"
+78-->[:image_picker_android] /Users/adilmalik/Documents/Remote work/showops/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+79            android:exported="false"
+79-->[:image_picker_android] /Users/adilmalik/Documents/Remote work/showops/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+80            android:grantUriPermissions="true" >
+80-->[:image_picker_android] /Users/adilmalik/Documents/Remote work/showops/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+81            <meta-data
+81-->[:image_picker_android] /Users/adilmalik/Documents/Remote work/showops/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+82                android:name="android.support.FILE_PROVIDER_PATHS"
+82-->[:image_picker_android] /Users/adilmalik/Documents/Remote work/showops/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+83                android:resource="@xml/flutter_image_picker_file_paths" />
+83-->[:image_picker_android] /Users/adilmalik/Documents/Remote work/showops/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+84        </provider>
+85
+86        <activity
+86-->[:url_launcher_android] /Users/adilmalik/Documents/Remote work/showops/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+87            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+87-->[:url_launcher_android] /Users/adilmalik/Documents/Remote work/showops/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+88            android:exported="false"
+88-->[:url_launcher_android] /Users/adilmalik/Documents/Remote work/showops/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+89            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+89-->[:url_launcher_android] /Users/adilmalik/Documents/Remote work/showops/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+90
+91        <uses-library
+91-->[androidx.window:window:1.0.0-beta04] /Users/adilmalik/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+92            android:name="androidx.window.extensions"
+92-->[androidx.window:window:1.0.0-beta04] /Users/adilmalik/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+93            android:required="false" />
+93-->[androidx.window:window:1.0.0-beta04] /Users/adilmalik/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+94        <uses-library
+94-->[androidx.window:window:1.0.0-beta04] /Users/adilmalik/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+95            android:name="androidx.window.sidecar"
+95-->[androidx.window:window:1.0.0-beta04] /Users/adilmalik/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+96            android:required="false" />
+96-->[androidx.window:window:1.0.0-beta04] /Users/adilmalik/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+97
+98        <provider
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+99            android:name="androidx.startup.InitializationProvider"
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:25:13-67
+100            android:authorities="com.example.showops.androidx-startup"
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:26:13-68
+101            android:exported="false" >
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:27:13-37
+102            <meta-data
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+103                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+104                android:value="androidx.startup" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+105        </provider>
+106
+107        <receiver
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+108            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+109            android:directBootAware="false"
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+110            android:enabled="true"
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+111            android:exported="true"
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+112            android:permission="android.permission.DUMP" >
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+113            <intent-filter>
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+114                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+115            </intent-filter>
+116            <intent-filter>
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+117                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+118            </intent-filter>
+119            <intent-filter>
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+120                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+121            </intent-filter>
+122            <intent-filter>
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+123                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/adilmalik/.gradle/caches/transforms-3/635b1770925726da461e843c0a3c6641/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+124            </intent-filter>
+125        </receiver>
+126    </application>
+127
+128</manifest>
